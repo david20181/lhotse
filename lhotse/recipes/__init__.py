@@ -7,6 +7,7 @@ from .ami import download_ami, prepare_ami
 from .aspire import prepare_aspire
 from .babel import prepare_single_babel_language
 from .broadcast_news import prepare_broadcast_news
+from .but_reverb_db import download_but_reverb_db, prepare_but_reverb_db
 from .bvcc import download_bvcc, prepare_bvcc
 from .callhome_egyptian import prepare_callhome_egyptian
 from .callhome_english import prepare_callhome_english
@@ -20,6 +21,9 @@ from .cslu_kids import prepare_cslu_kids
 from .daily_talk import download_daily_talk, prepare_daily_talk
 from .dihard3 import prepare_dihard3
 from .dipco import download_dipco, prepare_dipco
+from .earnings21 import download_earnings21, prepare_earnings21
+from .earnings22 import download_earnings22, prepare_earnings22
+from .edacc import download_edacc, prepare_edacc
 from .eval2000 import prepare_eval2000
 from .fisher_english import prepare_fisher_english
 from .fisher_spanish import prepare_fisher_spanish
@@ -32,6 +36,7 @@ from .himia import download_himia, prepare_himia
 from .icsi import download_icsi, prepare_icsi
 from .l2_arctic import prepare_l2_arctic
 from .libricss import download_libricss, prepare_libricss
+from .librilight import prepare_librilight
 from .librimix import download_librimix, prepare_librimix
 from .librispeech import download_librispeech, prepare_librispeech
 from .libritts import download_libritts, prepare_libritts
